@@ -147,8 +147,9 @@ class ModbusExceptions(Singleton):
     Acknowledge             = 0x05
     SlaveBusy               = 0x06
     MemoryParityError       = 0x08
-    GatewayPathUnavailable  = 0x0A
-    GatewayNoResponse       = 0x0B
+    GatewayNoResponse       = 0x0A
+    GatewayPathUnavailable  = 0x0B
+    
 
     @classmethod
     def decode(cls, code):
